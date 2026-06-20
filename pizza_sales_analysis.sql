@@ -26,7 +26,7 @@ JOIN order_details
 ON pizzas.pizza_id = order_details.pizza_id
 GROUP BY pizzas.size
 ORDER BY order_count DESC;
- select order_details_id from order_details;
+
 
 -- list the top 5  most ordered pizza 
 -- type along with their qunantities
